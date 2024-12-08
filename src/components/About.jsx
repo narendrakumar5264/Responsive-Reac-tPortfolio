@@ -56,19 +56,20 @@ const About = ({ darkMode }) => {
           </div>
           <div className="flex flex-wrap items-center justify-center gap-4 mt-8">
             {/* Download CV Button */}
+  
             <a
-              href="resume.png"
-              download
-              className={`group relative inline-block px-6 py-3 font-medium rounded-full shadow-md transition-all duration-300 ${
-                darkMode
-                  ? "text-gray-900 bg-yellow-400 hover:bg-yellow-500"
-                  : "text-white bg-blue-500 hover:bg-blue-700"
-              }`}
-            >
-              <span className="relative flex items-center gap-2">
-                📄 Download CV
-              </span>
-            </a>
+  href="../assets/resume.pdf"
+  download
+  className={`group relative inline-block px-6 py-3 font-medium rounded-full shadow-md transition-all duration-300 ${
+    darkMode
+      ? "text-gray-900 bg-yellow-400 hover:bg-yellow-500"
+      : "text-white bg-blue-500 hover:bg-blue-700"
+  }`}
+>
+  <span className="relative flex items-center gap-2">
+    📄 Download CV
+  </span>
+</a>
             {/* Get In Touch Button */}
             <button
               className={`group relative inline-block px-6 py-3 font-medium border rounded-full shadow-md transition-all duration-300 ${
