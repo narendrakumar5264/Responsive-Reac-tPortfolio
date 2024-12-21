@@ -45,12 +45,12 @@ const Home = ({ darkMode }) => {
                 <h1 className="font-bold">Available on</h1>
                 <ul className="flex justify-center md:justify-start space-x-5">
                   <li>
-                    <a href="" target="_blank">
+                    <a href="https://www.instagram.com/narendrajangid2022/" target="_blank">
                       <FaInstagram className="text-2xl cursor-pointer" />
                     </a>
                   </li>
                   <li>
-                    <a href="" target="_blank">
+                    <a href="https://github.com/narendrakumar5264" target="_blank">
                       <FaGithub className="text-2xl cursor-pointer" />
                     </a>
                   </li>
