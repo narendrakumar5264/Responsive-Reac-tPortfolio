@@ -1,8 +1,8 @@
 import React from "react";
-import news from "../assets/news.png";
-import Simon from "../assets/simon.png";
-import tic from "../assets/tic.png";
-import port from "../assets/port.png";
+import news from "../assets/project3.png";
+import Simon from "../assets/project2.png";
+import tic from "../assets/tic2.png";
+import port from "../assets/project1.png";
 
 const Project = ({ darkMode }) => {
   const projects = [
@@ -16,8 +16,19 @@ const Project = ({ darkMode }) => {
       sourceLink: "https://github.com/username/portfolio",
       visitLink: "/videos/portfolio-demo.mp4", // Local or hosted video link
     },
+   
     {
       id: 2,
+      title: "Razor Pay Clone",
+      technologies: ["JavaScript", "HTML", "Tailwind CSS"],
+      description:
+        "The Razorpay Clone project is a replica  of Razorpay, enabling secure online transactions through multiple payment methods.",
+      logo: Simon,
+      sourceLink: "https://github.com/narendrakumar5264/Razor-Pay-Clone",
+      visitLink: "https://razor-pay-clone-narendra-kumars-projects-5942db58.vercel.app/", // Local or hosted video link
+    },
+    {
+      id: 3,
       title: "Responsive News Portal",
       technologies: ["JavaScript", "HTML", "CSS"],
       description:
@@ -25,16 +36,6 @@ const Project = ({ darkMode }) => {
       logo: news,
       sourceLink: "https://github.com/narendrakumar5264/news2",
       visitLink: "../assets/newspreview.mp4", // Local or hosted video link
-    },
-    {
-      id: 3,
-      title: "Simon Says Game",
-      technologies: ["JavaScript", "HTML", "CSS"],
-      description:
-        "A classic memory game where users mimic a sequence of lights and sounds. Built with clean animations and scoring.",
-      logo: Simon,
-      sourceLink: "https://github.com/narendrakumar5264/simon-says-game",
-      visitLink: "/videos/simon-demo.mp4", // Local or hosted video link
     },
     {
       id: 4,
@@ -57,9 +58,9 @@ const Project = ({ darkMode }) => {
     >
       {/* Header */}
       <header className="py-6 text-center">
-        <h1 className="text-4xl font-bold drop-shadow-lg">Projects Section</h1>
+        <h1 className="text-4xl font-bold drop-shadow-lg">Projects </h1>
         <p className="text-sm font-light mt-2">
-          Explore my featured projects and contributions.
+          Explore my featured projects .
         </p>
       </header>
 
@@ -81,12 +82,12 @@ const Project = ({ darkMode }) => {
                   <img
                     src={project.logo}
                     alt={project.title}
-                    className="bg-white w-24 h-24 object-contain transform group-hover:scale-110 group-hover:rotate-3 group-hover:shadow-lg group-hover:shadow-indigo-500/50 transition-all duration-500"
+                    className=" w-50 h-35 object-contain transform group-hover:scale-110 group-hover:rotate-3 group-hover:shadow-lg group-hover:shadow-indigo-500/50 transition-all duration-500"
                   />
                 </div>
 
                 {/* Project Title */}
-                <h2 className="text-lg font-bold text-center mb-4">
+                <h2 className="text-lg font-bold text-center mb-2">
                   {project.title}
                 </h2>
 

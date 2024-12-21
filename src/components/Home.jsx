@@ -35,13 +35,13 @@ const Home = ({ darkMode }) => {
             </div>
             <br />
             <p className="text-sm md:text-md text-justify mt-2">
-              5★ Coder on HackerRank | 200+ DSA Problems | gfg | leetcode |
-              Front-End Developer | RHCSA certified | SQL Enthusiast | Passionate Problem Solver
+              I am a dedicated Front-End Web Developer with expertise in HTML, CSS, JavaScript, and React. I am also proficient in programming languages like C, C++, and Python, with a solid understanding of Data Structures and Algorithms. My skills allows me to develop  responsive web applications with efficiency.
             </p>
 
-            {/* Social Media Icons */}
-            <div className="flex flex-col items-center md:items-start space-y-6">
-              <div className="space-y-2">
+            {/* Social Media and Currently Working On */}
+            <div className="flex flex-col md:flex-row items-center md:items-start justify-between space-y-6 md:space-y-0">
+              {/* Available On Section */}
+              <div className="space-y-2 md:mr-4">
                 <h1 className="font-bold">Available on</h1>
                 <ul className="flex justify-center md:justify-start space-x-5">
                   <li>
@@ -69,6 +69,8 @@ const Home = ({ darkMode }) => {
                   </li>
                 </ul>
               </div>
+
+              {/* Currently Working On Section */}
               <div className="space-y-2 font-bold">
                 <h1>Currently Working on</h1>
                 <div className="flex justify-center md:justify-start space-x-5">
